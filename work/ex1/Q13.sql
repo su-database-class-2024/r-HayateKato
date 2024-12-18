@@ -1,0 +1,1 @@
+select store.store_id, store.manager_staff_id, store.address_id, address.address, address.address2, address.district, address.city_id, address.postal_code, address.phone, store.last_update from store join address on store.address_id = address.address_id;
